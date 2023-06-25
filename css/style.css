@@ -3,3 +3,34 @@ body {
     color: #333;
 }
 
+.main {
+    border: solid 2px red;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameBorder{
+    border: solid 2px green;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameBorder_easy .square {
+    width: calc(50% - 2px);
+    height: calc(50% - 2px);
+}
+.gameBorder_medium .square {
+    width: calc(33.3% - 2px);
+    height: calc(33.3% - 2px);
+}
+
+.square {
+    background-color: #ccc;
+    margin: 1px;
+}
+
