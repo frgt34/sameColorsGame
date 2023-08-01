@@ -10,9 +10,10 @@
 
    <h1>Square game</h1>
    <button class="startGame">Start game</button>
-   <select name="" id="">
-    <option value="1">easy</option>
-    <option value="2">medium</option>
+   <select name="" id="select">
+    <option value="1">Easy</option>
+    <option value="2">Medium</option>
+    <option value="3">Hard</option>
     <option value="0">manual</option>
    </select>
    <!-- 
@@ -23,18 +24,46 @@
 
     -->
     <div class="main">
-        <div class="gameBorder gameBorder_easy">
+        <div class="gameBorder gameBorder_Easy gameBorder_Medium ">
             <!-- Написать код где 4 квадратика с разными цветами уже будут существовать -->
-            <div class="square">1</div>
+            <!-- <div class="square">1</div>
             <div class="square">2</div>
             <div class="square">3</div>
-            <div class="square">4</div>
+            <div class="square">4</div> -->
    
         </div>
     </div>
 
+    <div class="main">
+        <div class="gameBorder__DANIL ">
+            <!-- Написать код где 4 квадратика с разными цветами уже будут существовать -->
+            <!-- <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div> -->
+   
+        </div>
+    </div>
+
+    <!-- <div class="mySquareGame"></div>
+    <div class="myDanil"></div> -->
+
 
     <script src="js/script.js"></script>
+    <!-- <script src="js/game.js"></script>
+    <script >
+        new Game({
+            app: ".mySquareGame",
+            hardness: 3,
+            delay: 5,
+        });
+
+        startNewGame({
+            app: ".mySquareGame",
+            hardness: 3,
+            delay: 5,
+        });
+    </script> -->
     
 </body>
 </html>

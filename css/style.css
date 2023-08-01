@@ -20,13 +20,17 @@ body {
     flex-wrap: wrap;
 }
 
-.gameBorder_easy .square {
+.gameBorder_Easy .square {
     width: calc(50% - 2px);
     height: calc(50% - 2px);
 }
-.gameBorder_medium .square {
+.gameBorder_Medium .square {
     width: calc(33.3% - 2px);
     height: calc(33.3% - 2px);
+}
+.gameBorder_Hard .square {
+    width: calc(25% - 2px);
+    height: calc(25% - 2px);
 }
 
 .square {
